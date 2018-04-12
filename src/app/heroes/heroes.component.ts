@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero/hero';
+import {MatTableModule} from '@angular/material/table';
 
 @Component({
   selector: 'app-heroes',
